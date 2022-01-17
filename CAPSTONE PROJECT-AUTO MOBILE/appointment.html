@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <title>Appointment</title>
+    <body>
+        <a href="home.html">AutoMob-Mechanic </a> <br><br>
+
+        <header><a href="home.html">Home</a> | 
+            <a href="services.html">Services</a> | 
+            <a href="Booking.html">Booking</a> | 
+            <a href="Contact@automob.co.in">Contact@automob.co.in </a> | 999 999 9999
+        </header>
+        <hr> <br><br> <br>
+
+        <form name="booking-sucess" action="booking-sucess.html" method="post">
+            <label for="Appointment Date">Appointment Date:</label>
+                <input type="Date" required/> <br><br>
+            <label for="Address">Address:</label>
+                <textarea rows="10" cols="50" required></textarea> <br><br>
+            <label for="City">City:</label>
+                <input type="text" placeholder="Mumbai,Pune.." required> <br><br>
+            <label for="State">State:</label>
+                <input list="State">
+                <datalist id="State" placeholder="Odisha,Kerela" required>
+                    <option value="Odisha">
+                    <option value="Karnataka">
+                    <option value="GOA">
+                    <option value="Maharastra">   
+                </datalist>
+            <br><br>
+            <label for="Send Notification">Send Notification:</label>
+                <input type="checkbox" checked>Email
+                <input type="checkbox" >SMS
+            <br> <br>
+            <button type="submit">Book</button>
+        </form>
+
+        <br><br><br> <hr> 
+        <footer>
+            Copyright &copy;2020 AutoMob-Mechanic. All rights Reserved.
+        </footer>
+</html>
